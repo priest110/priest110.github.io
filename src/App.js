@@ -31,7 +31,10 @@ function App(){
             <div className='App'>
                 <Header/>
                 <React.StrictMode>
-                    <Home/>
+                    <main>
+                        <Home/>
+                        <About/>
+                    </main>
                 </React.StrictMode>
             </div>
         </ThemeProvider>

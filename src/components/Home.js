@@ -1,7 +1,7 @@
 import React from 'react';
 import TypewriterComponent from 'typewriter-effect';
 import './Home.css'
-import { Avatar, Grid, Typography, IconButton, Container, Button} from '@mui/material';
+import { Avatar, Grid, Typography, IconButton, Button} from '@mui/material';
 import { GitHub, LinkedIn, Mail } from '@mui/icons-material';
 
 
@@ -24,12 +24,12 @@ export default class Home extends React.Component{
         const avatar = "https://avatars.githubusercontent.com/u/49480451?v=4";
 
         return(
-            <main style={{ marginTop:"192px", height:"100%"}}>
-                <Grid container justifyContent="center" alignItems="center" spacing={5} sx={{ display: { md: 'flex', xs: 'none'}}}>
-                    <Grid item xs="auto">
+            <div className='grid-height'>
+                <Grid container justifyContent="center" alignItems="center" spacing={5}  sx={{ display: { md: 'flex', xs: 'none'}, marginTop:0, height:'inherit'}}>
+                    <Grid item xs="auto" style={{ paddingTop:0 }}>
                         <Avatar src={avatar} sx={{ width:{ md:'25vw', lg:'300px'}, height:{ md:'25vw', lg:'300px'}, }}/>    
                     </Grid>
-                    <Grid item xs="auto" md={5}>
+                    <Grid item xs="auto" md={5} style={{ paddingTop:0 }}>
                         <Typography color="primary.dark" variant='h2' >
                             {author_name}
                         </Typography>
@@ -60,42 +60,42 @@ export default class Home extends React.Component{
                         </div>
                     </Grid>
                 </Grid>
-                <Grid container direction="column" justifyContent="center" alignItems="center" sx={{ display: { md: 'none', xs: 'flex'}, textAlign: 'center'}}>
-                        <Grid item>
-                        <Avatar src={avatar} sx={{ width:'300px', height:'300px', marginLeft: 'auto', marginRight: 'auto' }}/> 
-                        <Typography color="primary.dark" variant='h2' >
-                            {author_name}
-                        </Typography>
-                        <Typography color="primary" variant='h4' >
-                            {author_area}
-                        </Typography>
-                        <Typography color="primary.light" variant='h6' >
-                            {description}
-                        <TypewriterComponent  options={{
-                            strings: specialisations,
-                            autoStart: true,
-                            loop: true,
-                        }}/>
-                        </Typography>
-                        </Grid>
-                        <Grid item>
-                        <IconButton style={{ paddingLeft:'0px' }} color="primary"  href="#" target="_blank">
-                            <LinkedIn sx={{ fontSize:'40px' }}/>
-                        </IconButton>
-                        <IconButton color="primary"  href={ github } target="_blank">
-                            <GitHub sx={{ fontSize:'40px' }}/>
-                        </IconButton>
-                        <IconButton color="primary" href={ email } target="_blank">
-                            <Mail sx={{ fontSize:'40px' }}/>
-                        </IconButton>
-                        </Grid>
-                        <Grid item>
-                            <Button style={{ width:'152px' }} variant='contained' color="primary" onClick={this.handle_download}>
-                                Resume
-                            </Button>
-                        </Grid>
+                <Grid container direction="column" justifyContent="center" alignItems="center" sx={{ display: { md: 'none', xs: 'flex'}, textAlign: 'center', height:'inherit'}}>
+                    <Grid item>
+                    <Avatar src={avatar} sx={{ width:'300px', height:'300px', marginLeft: 'auto', marginRight: 'auto' }}/> 
+                    <Typography color="primary.dark" variant='h2' >
+                        {author_name}
+                    </Typography>
+                    <Typography color="primary" variant='h4' >
+                        {author_area}
+                    </Typography>
+                    <Typography color="primary.light" variant='h6' >
+                        {description}
+                    <TypewriterComponent  options={{
+                        strings: specialisations,
+                        autoStart: true,
+                        loop: true,
+                    }}/>
+                    </Typography>
+                    </Grid>
+                    <Grid item>
+                    <IconButton style={{ paddingLeft:'0px' }} color="primary"  href="#" target="_blank">
+                        <LinkedIn sx={{ fontSize:'40px' }}/>
+                    </IconButton>
+                    <IconButton color="primary"  href={ github } target="_blank">
+                        <GitHub sx={{ fontSize:'40px' }}/>
+                    </IconButton>
+                    <IconButton color="primary" href={ email } target="_blank">
+                        <Mail sx={{ fontSize:'40px' }}/>
+                    </IconButton>
+                    </Grid>
+                    <Grid item>
+                        <Button style={{ width:'152px' }} variant='contained' color="primary" onClick={this.handle_download}>
+                            Resume
+                        </Button>
+                    </Grid>
                 </Grid>
-            </main>
+            </div>
         )
     }
 }
