@@ -1,0 +1,12 @@
+
+@keyframes back-top{
+    0%   {top:0px; opacity:0.1;}
+    100% {top:-25px; opacity:1;}
+}
+
+.animation-back-top{
+    position: relative;
+    animation-name: back-top;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}

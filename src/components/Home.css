@@ -2,6 +2,32 @@
     display: inline;
 }
 
-.grid-height{
-    height: calc(100vh - 64px)
+.grid{
+    height: calc(100vh - 76px);
+}
+
+.sub-grid-height-1{
+    height: calc((100vh - 76px)* (5/6));
+}
+
+.sub-grid-height-2{
+    height: calc((100vh - 76px)* (1/6));
+    transition: transform 1s
+}
+
+.sub-grid-height-2:hover{
+    transform: scale(1.2);
+}
+
+@keyframes scroll{
+    0%   {top:0px; opacity:0.5;}
+    50%  {top:-50px; opacity: 1;}
+    100% {top:0px; opacity:0.5;}
+}
+
+.animation-scroll{
+    position: relative;
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
