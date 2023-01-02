@@ -7,7 +7,7 @@ export default class Header extends React.Component{
     render() {
         const name = "Rui Oliveira"
         const tabs = ["About", "Experience", "Projects"]
-        const avatar = "./mini_avatar.png"
+        const avatar = "./me/mini_avatar.png"
         var buttons = []
 
         for (let i = 0; i < tabs.length; i++){

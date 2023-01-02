@@ -6,14 +6,14 @@ import { GitHub, LinkedIn, Mail } from '@mui/icons-material';
 export default class Footer extends React.Component{
     render() {
         const name = "Rui Oliveira"
-        const avatar = "./mini_avatar.png"
+        const avatar = "./me/mini_avatar.png"
         const linkedIn = " ";
         const github = "https://github.com/priest110";
         const email = "mailto:rui.nbc.oliveira@gmail.com";
         const final_declaration = "Feel free to contact me anymtime if you have some cool idea!"
 
         return (
-            <footer style={{ backgroundColor:"#BB6E69" }}>
+            <footer style={{ backgroundColor:"#AA4A44" }}>
                 <Box justifyContent="center" alignItems="center" sx={{ display: { md: 'flex', xs: 'none'}, paddingTop:"20px", paddingBottom:"20px" }}>
                     <Avatar src={avatar} sx={{ width: 100, height: 100 }}/>  
                 </Box>

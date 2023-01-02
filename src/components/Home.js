@@ -21,8 +21,7 @@ export default class Home extends React.Component{
         const linkedIn = " ";
         const github = "https://github.com/priest110";
         const email = "mailto:rui.nbc.oliveira@gmail.com";
-        const avatar = "./avatar.jpg";
-        const ilustration = "./priest_holo.png";
+        const avatar = "./me/avatar.jpg";
 
         return(
             <div className='grid'>

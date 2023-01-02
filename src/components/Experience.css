@@ -10,3 +10,11 @@
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
 }
+
+.button-transition{
+    transition: transform 1s
+}
+
+.button-transition:hover{
+    transform: scale(1.2);
+}

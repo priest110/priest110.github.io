@@ -1,0 +1,19 @@
+.css-1m9128y{
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+}
+
+.css-ohwg9z{
+    border-radius:10px;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+}
+
+.carousel_image{
+    transition: transform 1s ease;
+}
+
+.carousel_image:hover{
+    transform: scale(1.5);
+}
