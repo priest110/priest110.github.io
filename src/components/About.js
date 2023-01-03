@@ -1,8 +1,9 @@
 import React from 'react';
-import { Grid, Typography, Box, List, ListItem, ListItemIcon, ListItemText, Paper} from '@mui/material';
+import { Grid, Typography, Box, List, ListItem, ListItemIcon, ListItemText, Paper } from '@mui/material';
 import Carousel from 'react-material-ui-carousel'
 import { EnergySavingsLeaf, SportsSoccer, VolunteerActivism } from '@mui/icons-material';
 import './About.css'
+
 
 export default class About extends React.Component{ 
     carousel_item(item, i){
@@ -38,7 +39,7 @@ export default class About extends React.Component{
             },
             {
                 alt: "Colónia",
-                image: "./me/colonia-2.jpg",
+                image: "./me/colonia.jpg",
                 description: "First day of 'Colónia' 2019"
             },
             {
@@ -55,21 +56,21 @@ export default class About extends React.Component{
 
         return(
             <div id="about">
-                <Box justifyContent="center" alignItems="center" sx={{ display: { md: 'flex', xs: 'none'}, marginLeft:"auto", marginRight:"auto", paddingBottom:"50px", paddingTop:"100px"}}>
+                <Box justifyContent="center" alignItems="center" sx={{ display: "flex", marginLeft:"auto", marginRight:"auto", paddingBottom:"50px", paddingTop:"100px"}}>
                     <Typography variant="h2">
                         About me
                     </Typography>
                 </Box>
-                <Grid container justifyContent="center" alignItems="center" spacing={5}  sx={{ display: { md: 'flex', xs: 'none'}, maxWidth:"80rem", marginLeft:"auto", marginRight:"auto"}}>
-                    <Grid item xs={4}>
-                        <img src="./me/priest_holo.png" alt="Holo" height="400px"></img>
+                <Grid container spacing={5}  sx={{ display: "flex"}}>
+                    <Grid item md="auto" style={{paddingLeft:0}}>
+                        <img src="./me/priest_holo.png" alt="Holo" height="400" style={{ŧextAlign:"center"}}></img>
                     </Grid>
-                    <Grid item xs={6} style={{paddingTop:0}}>
-                        <Typography variant="h6">
+                    <Grid item lg={7}  xs={12} style={{paddingLeft:0}}>
+                        <Typography variant="h6" >
                             { formal_education }
                         </Typography>
                     </Grid>
-                    <Grid item xs={6} style={{paddingLeft:0}}>
+                    <Grid item lg={6} xs={12} style={{paddingLeft:0}}>
                         <Typography variant='h6'>
                             { extra_education }
                         </Typography>
@@ -94,8 +95,8 @@ export default class About extends React.Component{
                             </ListItem>
                         </List>
                     </Grid>
-                    <Grid item xs={5}>
-                        <Carousel animation='slide' duration="1000" navButtonsAlwaysInvisible swipe>
+                    <Grid item lg={5} xs={12} className="carousel_grid">
+                        <Carousel autoPlay="false" animation='slide' duration="1000" swipe>
                             { items.map( (item, i) => this.carousel_item(item, i) )}
                         </Carousel>
                     </Grid>

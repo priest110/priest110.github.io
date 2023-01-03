@@ -11,6 +11,27 @@
     animation-iteration-count: infinite;
 }
 
+@keyframes go_up{
+    0%   {opacity: 0; top:100px}
+    100% {opacity: 1; top:0px}
+}
+
+.animation-tools{
+    animation-name: go_up;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+@media only screen and (min-width: 992px) {
+    #time_line .MuiTimeline-positionAlternate{
+        display: block !important;
+    }
+    #time_line .MuiTimeline-positionRight{
+        display: none !important;
+    }
+}
+
 .button-transition{
     transition: transform 1s
 }
