@@ -7,7 +7,7 @@ export default class Footer extends React.Component{
     render() {
         const name = "Rui Oliveira"
         const avatar = "./me/mini_avatar.png"
-        const linkedIn = "www.linkedin.com/in/ruinbcoliveira";
+        const linkedIn = "https://www.linkedin.com/in/ruinbcoliveira/";
         const github = "https://github.com/priest110";
         const email = "mailto:rui.nbc.oliveira@gmail.com";
         const final_declaration = "If you have a great idea, do not hesitate to contact me!"

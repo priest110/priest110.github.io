@@ -18,7 +18,7 @@ export default class Home extends React.Component{
         const author_area = "Software Enginner from Portugal";
         const description = "Specialized in ";
         const specialisations = ["Distributed Systems", "Distributed Parallel Computing"];
-        const linkedIn = "www.linkedin.com/in/ruinbcoliveira";
+        const linkedIn = "https://www.linkedin.com/in/ruinbcoliveira/";
         const github = "https://github.com/priest110";
         const email = "mailto:rui.nbc.oliveira@gmail.com";
         const avatar = "./me/avatar.jpg";
