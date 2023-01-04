@@ -7,7 +7,7 @@ export default class Footer extends React.Component{
     render() {
         const name = "Rui Oliveira"
         const avatar = "./me/mini_avatar.png"
-        const linkedIn = " ";
+        const linkedIn = "www.linkedin.com/in/ruinbcoliveira";
         const github = "https://github.com/priest110";
         const email = "mailto:rui.nbc.oliveira@gmail.com";
         const final_declaration = "If you have a great idea, do not hesitate to contact me!"
@@ -23,7 +23,7 @@ export default class Footer extends React.Component{
                     </Typography>  
                 </Box>             
                 <Box justifyContent="center" alignItems="center" sx={{ display: "flex" }}>
-                    <IconButton disableRipple href="#" target="_blank" rel="noreferrer" sx={{ "&:hover": { backgroundColor: "transparent", color: "white" }, color:"black" }}>
+                    <IconButton disableRipple href={linkedIn} target="_blank" rel="noreferrer" sx={{ "&:hover": { backgroundColor: "transparent", color: "white" }, color:"black" }}>
                         <LinkedIn sx={{ fontSize:'40px' }}/>
                     </IconButton>
                     <IconButton disableRipple  href={ github } target="_blank" rel="noreferrer" sx={{ "&:hover": { backgroundColor: "transparent", color: "white" }, color:"black" }}>

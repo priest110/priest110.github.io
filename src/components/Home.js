@@ -18,7 +18,7 @@ export default class Home extends React.Component{
         const author_area = "Software Enginner from Portugal";
         const description = "Specialized in ";
         const specialisations = ["Distributed Systems", "Distributed Parallel Computing"];
-        const linkedIn = " ";
+        const linkedIn = "www.linkedin.com/in/ruinbcoliveira";
         const github = "https://github.com/priest110";
         const email = "mailto:rui.nbc.oliveira@gmail.com";
         const avatar = "./me/avatar.jpg";
@@ -44,7 +44,7 @@ export default class Home extends React.Component{
                             loop: true,
                         }}/>
                         </Typography>
-                        <IconButton disableRipple style={{ paddingLeft:'0px' }} color="primary"  href="#" target="_blank" rel="noreferrer" sx={{ "&:hover": { backgroundColor: "transparent", color: "black" } }}>
+                        <IconButton disableRipple style={{ paddingLeft:'0px' }} color="primary"  href={linkedIn} target="_blank" rel="noreferrer" sx={{ "&:hover": { backgroundColor: "transparent", color: "black" } }}>
                             <LinkedIn sx={{ fontSize:'40px' }}/>
                         </IconButton>
                         <IconButton disableRipple color="primary"  href={ github } target="_blank" rel="noreferrer" sx={{ "&:hover": { backgroundColor: "transparent", color: "black" } }}>
