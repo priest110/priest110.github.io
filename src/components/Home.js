@@ -95,8 +95,8 @@ export default class Home extends React.Component{
                         </Button>
                     </Grid>
                 </Grid>
-                <Box className='sub-grid-height-2' justifyContent="center" alignItems="center" sx={{ display: "flex"}}>
-                    <Typography className='animation-scroll' color="primary" variant='h6'>
+                <Box className='sub-grid-height-2' justifyContent="center" alignItems="center" sx={{ display: "flex", marginLeft: "auto", marginRight: "auto", maxWidth: "300px"}}>
+                    <Typography className='animation-scroll animation-scale' color="primary" variant='h6'>
                             SCROLL
                     </Typography>
                 </Box>

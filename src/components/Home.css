@@ -24,10 +24,13 @@
 .sub-grid-height-2{
     height: calc((100vh - 76px)* (1/6));
     min-height: calc(656px * (1/6));
+}
+
+.animation-scale{
     transition: transform 1s
 }
 
-.sub-grid-height-2:hover{
+.animation-scale:hover{
     transform: scale(1.2);
 }
 
