@@ -39,7 +39,7 @@ const theme = createTheme({
 function App(){
     const [loading, setLoading] = useState(true)
     useEffect(() => {
-      setTimeout(() => setLoading(false), 100000)
+      setTimeout(() => setLoading(false), 1000)
     }, [])
 
     window.addEventListener("resize", () => {
