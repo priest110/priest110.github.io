@@ -17,6 +17,7 @@ export default class Experience extends React.Component{
     render() {
         const uminho = "./logos/uminho.jpg";
         const inesctec = "./logos/inesctec.png";
+        const poweb = "./logos/poweb.jpg"
         const bsc_contents = [
             "Functional Programming",
             "Imperative Programming",
@@ -27,6 +28,7 @@ export default class Experience extends React.Component{
             "Computer Networks",
             "Databases"
         ];
+        var bsc_chips = []
         const specializations = ["Distributed Systems", "Distributed Parallel Computing"];
         const msc_contents = [
             "Distributed Systems Fundamentals",
@@ -36,10 +38,9 @@ export default class Experience extends React.Component{
             "Parallel Algorithms",
             "Computer Systems Engineering"
         ];  
-        const thesis = "Scientific Data Management";
-        const research_content = "Analysis of existing solutions to the problem of scientific data management, with a focus on the CKAN, EUDAT, and Magda systems. Following this evaluation, an adaptation of the most interesting (CKAN) was applied to a specific study, the SAIL Project, an initiative promoted by INESC TEC researchers. The master's thesis was the result of this research."
-        var bsc_chips = []
         var msc_chips = []
+        const thesis = "Scientific Data Management";
+        const research_content = "Analysis of existing solutions to the problem of scientific data management, with a focus on the CKAN, EUDAT, and Magda systems. Following this evaluation, an adaptation of the most interesting (CKAN) was applied to a specific study, the SAIL Project, an initiative promoted by INESC TEC researchers. My master's thesis was the result of this research."
 
         for (let i = 0; i < bsc_contents.length; i++){
             bsc_chips.push(
@@ -209,14 +210,14 @@ export default class Experience extends React.Component{
                                 University of Minho
                             </Typography>
                             <Typography variant="h6">
-                                <b>Bsc Computer and Software Engineering</b>
+                                <b>BSc Computer and Software Engineering</b>
                             </Typography>
                             { bsc_chips }
                         </TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent sx={{ m: 'auto 0', display: this.state.matches ? 'block' : 'none' }} variant="body1" color="text.secondary">
-                            September 2020 - October 2022
+                            September 2020 - December 2022
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector />
@@ -227,13 +228,13 @@ export default class Experience extends React.Component{
                         </TimelineSeparator>
                         <TimelineContent sx={{ py: '12px', px: 2 }}>
                             <Typography component="span" sx={{display: !this.state.matches ? 'block' : 'none' }}>
-                                September 2020 - October 2022
+                                September 2020 - December 2022
                             </Typography>
                             <Typography variant="h5" component="span" color="primary">
                                 University of Minho
                             </Typography>
                             <Typography variant="h6">
-                                <b>Msc Computer and Software Engineering</b>
+                                <b>MSc Computer and Software Engineering</b>
                             </Typography>
                             <Typography color="grey">
                                 <b>{specializations[0]} & {specializations[1]}</b>
@@ -243,31 +244,60 @@ export default class Experience extends React.Component{
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent sx={{ m: 'auto 0', display: this.state.matches ? 'block' : 'none' }} align="right" variant="body1" color="text.secondary">
-                            March 2022 - December 2022
+                            April 2022 - September 2022
                         </TimelineOppositeContent>
                             <TimelineSeparator>
                                 <TimelineConnector />
                                 <TimelineDot variant="outlined" sx={{ padding: 0, borderColor:"#008CB1" }}>
-                                    <Avatar src={inesctec} sx={{ width: 34, height: 34 }}/>
+                                    <Avatar src={poweb} sx={{ width: 34, height: 34 }}/>
                                 </TimelineDot>
                                 <TimelineConnector sx={{ bgcolor: 'secondary' }} />
                             </TimelineSeparator>
                             <TimelineContent sx={{ py: '12px', px: 2 }}>
                                 <Typography component="span" sx={{display: !this.state.matches ? 'block' : 'none' }}>
-                                    March 2022 - December 2022
+                                    April 2022 - September 2022
                                 </Typography>
                                 <Typography variant="h5" component="span" color="primary">
-                                    INESC TEC
+                                    Poweb
                                 </Typography>
                                 <Typography variant="h6">
-                                    <b>Research assistant</b>
+                                    <b>Frontend Developer</b>
                                 </Typography>
                                 <Typography color="grey">
-                                    <b>Research area: { thesis }</b>
+                                    <b>Freelance</b>
                                 </Typography>
                                 <Typography color="grey">
-                                    { research_content }
+                                    Development and maintenance of the digital marketing company's website.
                                 </Typography>
+                        </TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineOppositeContent sx={{ m: 'auto 0', display: this.state.matches ? 'block' : 'none' }} variant="body1" color="text.secondary">
+                            March 2022 - November 2022
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineConnector />
+                            <TimelineDot variant="outlined" sx={{ padding: 0, borderColor:"#008CB1" }}>
+                                    <Avatar src={inesctec} sx={{ width: 34, height: 34 }}/>
+                            </TimelineDot>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent sx={{ py: '12px', px: 2 }}>
+                            <Typography component="span" sx={{display: !this.state.matches ? 'block' : 'none' }}>
+                                March 2022 - November 2022
+                            </Typography>
+                            <Typography variant="h5" component="span" color="primary">
+                                INESC TEC
+                            </Typography>
+                            <Typography variant="h6">
+                                <b>Research assistant</b>
+                            </Typography>
+                            <Typography color="grey">
+                                <b>Research area: { thesis }</b>
+                            </Typography>
+                            <Typography color="grey">
+                                { research_content }
+                            </Typography>
                         </TimelineContent>
                     </TimelineItem>
                 </Timeline>

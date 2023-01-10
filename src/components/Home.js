@@ -62,7 +62,7 @@ export default class Home extends React.Component{
                 </Grid>
                 <Grid className='sub-grid-height-1' container direction="column" sx={{ display: { md: 'none', xs: 'flex'}, textAlign: 'center'}}>
                     <Grid item>
-                        <Avatar src={avatar} sx={{ width:'300px', height:'300px', marginLeft: 'auto', marginRight: 'auto' }}/> 
+                        <Avatar src={avatar} sx={{ width:{sm:'300px', xs:'50vw'}, height:{sm:'300px', xs:'50vw'}, marginLeft: 'auto', marginRight: 'auto' }}/> 
                         <Typography color="primary.dark" variant='h3' >
                             {author_name}
                         </Typography>
