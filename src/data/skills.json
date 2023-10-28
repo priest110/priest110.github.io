@@ -1,0 +1,110 @@
+[
+    {
+        "react": {
+            "name": "React",
+            "image": "./logos/react.png"
+        }
+    },
+    {
+        "vue": {
+            "name": "Vue",
+            "image": "./logos/vue.png"
+        }
+    },
+    {
+        "java": {
+            "name": "Java",
+            "image": "./logos/java.png"
+        }
+    },
+    {
+        "python": {
+            "name": "Python",
+            "image": "./logos/python.png"
+        }
+    },
+    {
+        "c": {
+            "name": "C++",
+            "image": "./logos/c++.png"
+        }
+    },
+    {
+        "js": {
+            "name": "Javascript",
+            "image": "./logos/javascript.png"
+        }
+    },
+    {
+        "html": {
+            "name": "HTML",
+            "image": "./logos/html.png"
+        }
+    },
+    {
+        "css": {
+            "name": "CSS",
+            "image": "./logos/css.png"
+        }
+    },
+    {
+        "node": {
+            "name": "NodeJS",
+            "image": "./logos/nodejs.png"
+        }
+    },
+    {
+        "my": {
+            "name": "MySQL",
+            "image": "./logos/mysql.png"
+        }
+    },
+    {
+        "postgres": {
+            "name": "PostgreSQL",
+            "image": "./logos/postgresql.png"
+        }
+    },
+    {
+        "mongo": {
+            "name": "Mongo DB",
+            "image": "./logos/mongodb.svg"
+        }
+    },
+    {
+        "strapi": {
+            "name": "Strapi",
+            "image": "./logos/strapi.jpg"
+        }
+    },
+    {
+        "vscode": {
+            "name": "VS Code",
+            "image": "./logos/vscode.png"
+        }
+    },
+    {
+        "mongo": {
+            "name": "Github",
+            "image": "./logos/github.png"
+        }
+    },
+    {
+        "github": {
+            "name": "Docker",
+            "image": "./logos/docker.png"
+        }
+    },
+    {
+        "postman": {
+            "name": "Postman",
+            "image": "./logos/postman.png"
+        }
+    },
+    {
+        "linux": {
+            "name": "Linux",
+            "image": "./logos/linux.png"
+        }
+    }
+]

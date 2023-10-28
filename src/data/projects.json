@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Parallelization of a Simple Ray Tracer",
+        "description": "Exploration of different performance optimisation techniques by exploiting parallelism in several aspects applied to a case study in Computer Graphics, a simple ray tracer.",
+        "tools": [
+            "C++",
+            "ISPC"
+        ],
+        "url": "https://github.com/priest110/university/tree/master/4th-year/CPD/ESC/Projeto%201"
+    },
+    {
+        "title": "Fault Tolerant Banking System",
+        "description": "Banking system that employs a fault-tolerant spread group communication protocol.",
+        "tools": [
+            "Java",
+            "Atomix",
+            "Spread"
+        ],
+        "url": "https://github.com/priest110/university/tree/master/4th-year/SD/TF/Projeto"
+    },
+    {
+        "title": "Rosetta Stone",
+        "description": "Middleware for transportation companies that use the General Transit Feed Specification (GTFS) format (in this case, Transportes Urbanos de Braga - TUB) to efficiently handle and display information.",
+        "tools": [
+            "Python",
+            "Javascript",
+            "Vue",
+            "Strapi",
+            "PostgreSQL"
+        ],
+        "url": "https://github.com/priest110/Rosetta_Stone"
+    },
+    {
+        "title": "Large Scale Database Server",
+        "description": "Evaluation of the behavior of a simple database system using the client-server paradigm, specifically to estimate its behavior in a high-performance and high-demand system and to calculate installation and maintenance costs.",
+        "tools": [
+            "C++"
+        ],
+        "url": "https://github.com/priest110/university/tree/master/4th-year/CPD/ESC/Projeto%202"
+    },
+    {
+        "title": "Restaurant Management System",
+        "description": "Automation of the daily work in a restaurant, providing management in different areas such as stocks, sales, staff, menus, tables and orders.",
+        "tools": [
+            "C#",
+            "Xamarin",
+            "ASP.NET Core MVC",
+            "MySQL"
+        ],
+        "url": "https://github.com/priest110/university/tree/master/3rd-year/LI4/Projeto"
+    }
+]

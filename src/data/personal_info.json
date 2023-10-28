@@ -1,0 +1,58 @@
+{
+    "profile": {
+        "name": "Rui Oliveira",
+        "area": "Software Enginner from Portugal",
+        "description": "Specialized in ",
+        "specialisations": [
+            "Distributed Systems",
+            "Distributed Parallel Computing"
+        ],
+        "linkedIn": "https://www.linkedin.com/in/ruinbcoliveira/",
+        "github": "https://github.com/priest110",
+        "email": "mailto:rui.nbc.oliveira@gmail.com",
+        "avatar": "./me/avatar.jpg"
+    },
+    "first_paragraph": "Hi! My name is Rui, and I recently graduated from the University of Minho with a master's degree in Computer and Software Engineering. During my academic career, I worked as a research assistant at INESC TEC, which helped me develop my specializations, and I also produced freelance work, which allowed me to study issues outside of my speciality, namely web development. My primary goal is to bring new ideas to life that improve people's daily lives, but I also enjoy enhancing the performance and utility of existing solutions.",
+    "second_paragraph": "In addition to my academic education, I have always dedicated my time to other areas of interest that have been critical to my personal growth. Thus, among these, I would highlight the following:",
+    "hobbies": [
+        {
+            "type": "Environmental sustainability and ecology",
+            "description": "I joined the organization Society Loving The Planet in 2019 and, currently, I am the Director of Strategy and Sustainable Development."
+        },
+        {
+            "type": "Sports",
+            "description": "I used to swim as a child and currently hold a lifeguard certification. Furthermore, I played federated football for 8 years and am currently enrolled in the UEFA C coaching course."
+        },
+        {
+            "type": "Volunteering",
+            "description": "I have been working since 2015 in an organization called ACOLMAX (or simply 'Colónia') that provides summer vacations to children, particularly those from deprived backgrounds. In addition, for the previous three years, I volunteered as a mentor to youngsters aged 15 and 16 in a youth group called Alvorada."
+        }
+    ],
+    "hobbies_images": [
+        {
+            "alt": "Tree planting",
+            "image": "./me/plantacao.jpg",
+            "description": "Tree planting promoted by Society and Laboratório da Paisagem (november 2022)"
+        },
+        {
+            "alt": "Football",
+            "image": "./me/futebol.jpg",
+            "description": "Vilaverdense Futebol Clube (17/18 season)"
+        },
+        {
+            "alt": "Colónia",
+            "image": "./me/colonia.jpg",
+            "description": "First day of 'Colónia' 2019"
+        },
+        {
+            "alt": "World Environment Week",
+            "image": "./me/se.jpg",
+            "description": "Activity related to the World Environment Week at the Sé elementary school in Braga (june 2022)"
+        },
+        {
+            "alt": "Sea",
+            "image": "./me/mar.jpg",
+            "description": "Bath time at 'Colónia' 2022, with the boundary marked by the typical human cordon formed by the volunteers"
+        }
+    ]
+}

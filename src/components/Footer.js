@@ -1,11 +1,10 @@
 import React from 'react';
-import { AppBar, Toolbar, Container, Box, IconButton, Avatar, Typography, Divider } from '@mui/material';
+import { Box, IconButton, Avatar, Typography, Divider } from '@mui/material';
 import { GitHub, LinkedIn, Mail } from '@mui/icons-material';
 
 
 export default class Footer extends React.Component{
     render() {
-        const name = "Rui Oliveira"
         const avatar = "./me/mini_avatar.png"
         const linkedIn = "https://www.linkedin.com/in/ruinbcoliveira/";
         const github = "https://github.com/priest110";
