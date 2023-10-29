@@ -17,12 +17,11 @@ export default class About extends React.Component {
         )
     }
 
-
     render() {
         const personal_info = require('../data/personal_info.json');
 
         return (
-            <div id="about">
+            <div id="About">
                 <Box justifyContent="center" alignItems="center" sx={{ display: "flex", marginLeft: "auto", marginRight: "auto", paddingBottom: "50px", paddingTop: "100px" }}>
                     <Typography variant="h2">
                         About me

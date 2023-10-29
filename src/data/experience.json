@@ -49,7 +49,7 @@
     {
         "title": "Checkmarx",
         "subtitle": "Software Engineer",
-        "content": "Integrated one of the R&D teams responsible for supporting the company's Static Application Security Testing (SAST) product. Contributed to the support of the GO language (with an emphasis on Gin framework) and am currently working on the development of a policy management platform (a centralized application for defining and managing an organization's security policies).",
+        "content": "Integration into one of the R&D teams responsible for supporting the company's Static Application Security Testing (SAST) product.\nSupport for the GO language (with an emphasis on the Gin framework).\nDevelopment of a Policy Management platform (a centralized application for defining and managing an organization's security policies).",
         "date": "April 2023 - Present",
         "logo": "./logos/checkmarx.png"
     }

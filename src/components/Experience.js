@@ -17,7 +17,6 @@ export default class Experience extends React.Component {
     render() {
         const skills = require('../data/skills.json');
         const experience = require('../data/experience.json');
-        console.log(experience[0].chips)
 
         let skill_chips = [];
         for (let i = 0; i < skills.length; i++) {
@@ -70,7 +69,16 @@ export default class Experience extends React.Component {
                             })
                             : (
                                 <Typography color="grey">
-                                    {experience[i].content}
+                                    {
+                                        experience[i].title === "Checkmarx"
+                                            ? experience[i].content.split('\n').map((paragraph, index) => (
+                                                <React.Fragment key={index}>
+                                                    {paragraph}
+                                                    <br />
+                                                </React.Fragment>
+                                            ))
+                                            : experience[i].content
+                                    }
                                 </Typography>
                             )
                         }
@@ -80,7 +88,7 @@ export default class Experience extends React.Component {
         }
 
         return (
-            <div id="experience">
+            <div id="Experience">
                 <Box justifyContent="center" alignItems="center" sx={{ display: "flex", width: "95%", maxWidth: "1300px", marginLeft: "auto", marginRight: "auto", paddingBottom: "50px", paddingTop: "100px", textAlign: "center" }}>
                     <Typography variant="h2">
                         Experience & Education

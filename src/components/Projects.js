@@ -46,7 +46,7 @@ export default class Experience extends React.Component{
         }
 
         return(
-            <div id="projects">
+            <div id="Projects">
                 <Box justifyContent="center" alignItems="center" sx={{ display: "flex", width:"95%", maxWidth:"1300px",  marginLeft:"auto", marginRight:"auto", paddingBottom:"50px", paddingTop:"100px", textAlign:"center"}}>
                     <Typography variant="h2">
                         Projects

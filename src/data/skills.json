@@ -24,9 +24,9 @@
         }
     },
     {
-        "c": {
-            "name": "C++",
-            "image": "./logos/c++.png"
+        "csharp": {
+            "name": "C#",
+            "image": "./logos/csharp.png"
         }
     },
     {
@@ -72,9 +72,9 @@
         }
     },
     {
-        "strapi": {
-            "name": "Strapi",
-            "image": "./logos/strapi.jpg"
+        "dotnet": {
+            "name": ".NET",
+            "image": "./logos/dotnet.png"
         }
     },
     {

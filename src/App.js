@@ -10,10 +10,17 @@ import Footer from './components/Footer';
 import { createTheme, ThemeProvider } from '@mui/material';
 
 const theme = createTheme({
+    components: {
+        MuiUseMediaQuery: {
+            defaultProps: {
+                noSsr: true,
+            },
+        },
+    },
     typography: {
         fontFamily: [
-          'Merriweath',
-          'serif',
+            'Merriweath',
+            'serif',
         ].join(','),
         button: {
             textTransform: "none",
@@ -29,44 +36,44 @@ const theme = createTheme({
         secondary: {
             main: '#FFFFFF',
         },
-        custom_black:{
+        custom_black: {
             main: '#000000'
         }
     }
-}); 
+});
 
 
-function App(){
+function App() {
     const [loading, setLoading] = useState(true)
     useEffect(() => {
-      setTimeout(() => setLoading(false), 1000)
+        setTimeout(() => setLoading(false), 1000)
     }, [])
 
     window.addEventListener("resize", () => {
-      document.querySelector(".sub-grid-height-1").classList.add("resize-animation-stopper");
+        document.querySelector(".sub-grid-height-1").classList.add("resize-animation-stopper");
     });
 
 
     return (
-       <ThemeProvider theme={ theme }>
-        {loading ? 
-        (<Loading/>) :
-            (<div className='App'>
-                <div id="background" className='background'/>
-                <Header/>
-                <React.StrictMode>
-                    <main>
-                        <Home/>
-                        <About/>
-                        <Experience/>
-                        <Projects/>
-                    </main>
-                </React.StrictMode>
-                <Footer/>
-            </div>)}
+        <ThemeProvider theme={theme}>
+            {loading ?
+                (<Loading />) :
+                (<div className='App'>
+                    <div id="background" className='background' />
+                    <Header />
+                    <React.StrictMode>
+                        <main>
+                            <Home />
+                            <About />
+                            <Experience />
+                            <Projects />
+                        </main>
+                    </React.StrictMode>
+                    <Footer />
+                </div>)}
         </ThemeProvider>
     )
-    
+
 }
 
 export default App
