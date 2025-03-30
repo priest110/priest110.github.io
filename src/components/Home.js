@@ -12,7 +12,6 @@ function MediaQueryWrapper({ render }) {
 }
 
 export default class Home extends React.Component {
-
     handle_download() {
         const link = document.createElement("a");
         link.download = 'rui_oliveira_cv.pdf';

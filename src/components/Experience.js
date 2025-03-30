@@ -71,12 +71,22 @@ export default class Experience extends React.Component {
                                 <Typography color="grey">
                                     {
                                         experience[i].title === "Checkmarx"
-                                            ? experience[i].content.split('\n').map((paragraph, index) => (
-                                                <React.Fragment key={index}>
-                                                    {paragraph}
-                                                    <br />
-                                                </React.Fragment>
-                                            ))
+                                            ? experience[i].content.split('\n').map((paragraph, index) => {
+                                                // Split paragraph by <b> and </b> tags
+                                                const parts = paragraph.split(/(<b>.*?<\/b>)/);
+                                                return (
+                                                    <React.Fragment key={index}>
+                                                        {parts.map((part, partIndex) => {
+                                                            if (part.startsWith('<b>') && part.endsWith('</b>')) {
+                                                                // Extract text between <b> tags and render it bold
+                                                                return <b key={partIndex}>{part.slice(3, -4)}</b>;
+                                                            }
+                                                            return part;
+                                                        })}
+                                                        <br />
+                                                    </React.Fragment>
+                                                );
+                                            })
                                             : experience[i].content
                                     }
                                 </Typography>

@@ -1,110 +1,110 @@
 [
-    {
-        "react": {
-            "name": "React",
-            "image": "./logos/react.png"
-        }
-    },
-    {
-        "vue": {
-            "name": "Vue",
-            "image": "./logos/vue.png"
-        }
-    },
-    {
-        "java": {
-            "name": "Java",
-            "image": "./logos/java.png"
-        }
-    },
-    {
-        "python": {
-            "name": "Python",
-            "image": "./logos/python.png"
-        }
-    },
-    {
-        "csharp": {
-            "name": "C#",
-            "image": "./logos/csharp.png"
-        }
-    },
-    {
-        "js": {
-            "name": "Javascript",
-            "image": "./logos/javascript.png"
-        }
-    },
-    {
-        "html": {
-            "name": "HTML",
-            "image": "./logos/html.png"
-        }
-    },
-    {
-        "css": {
-            "name": "CSS",
-            "image": "./logos/css.png"
-        }
-    },
-    {
-        "node": {
-            "name": "NodeJS",
-            "image": "./logos/nodejs.png"
-        }
-    },
-    {
-        "my": {
-            "name": "MySQL",
-            "image": "./logos/mysql.png"
-        }
-    },
-    {
-        "postgres": {
-            "name": "PostgreSQL",
-            "image": "./logos/postgresql.png"
-        }
-    },
-    {
-        "mongo": {
-            "name": "Mongo DB",
-            "image": "./logos/mongodb.svg"
-        }
-    },
-    {
-        "dotnet": {
-            "name": ".NET",
-            "image": "./logos/dotnet.png"
-        }
-    },
-    {
-        "vscode": {
-            "name": "VS Code",
-            "image": "./logos/vscode.png"
-        }
-    },
-    {
-        "mongo": {
-            "name": "Github",
-            "image": "./logos/github.png"
-        }
-    },
-    {
-        "github": {
-            "name": "Docker",
-            "image": "./logos/docker.png"
-        }
-    },
-    {
-        "postman": {
-            "name": "Postman",
-            "image": "./logos/postman.png"
-        }
-    },
-    {
-        "linux": {
-            "name": "Linux",
-            "image": "./logos/linux.png"
-        }
+  {
+    "go": {
+      "name": "Go",
+      "image": "./logos/go.jpg"
     }
+  },
+  {
+    "java": {
+      "name": "Java",
+      "image": "./logos/java.png"
+    }
+  },
+  {
+    "python": {
+      "name": "Python",
+      "image": "./logos/python.png"
+    }
+  },
+  {
+    "js": {
+      "name": "Javascript",
+      "image": "./logos/javascript.png"
+    }
+  },
+  {
+    "typescript": {
+      "name": "Typescript",
+      "image": "./logos/ts.png"
+    }
+  },
+  {
+    "html": {
+      "name": "HTML",
+      "image": "./logos/html.png"
+    }
+  },
+  {
+    "css": {
+      "name": "CSS",
+      "image": "./logos/css.png"
+    }
+  },
+  {
+    "react": {
+      "name": "React",
+      "image": "./logos/react.png"
+    }
+  },
+  {
+    "node": {
+      "name": "NodeJS",
+      "image": "./logos/nodejs.png"
+    }
+  },
+  {
+    "my": {
+      "name": "MySQL",
+      "image": "./logos/mysql.png"
+    }
+  },
+  {
+    "postgres": {
+      "name": "PostgreSQL",
+      "image": "./logos/postgresql.png"
+    }
+  },
+  {
+    "mongo": {
+      "name": "MongoDB",
+      "image": "./logos/mongodb.svg"
+    }
+  },
+  {
+    "github": {
+      "name": "Github",
+      "image": "./logos/github.png"
+    }
+  },
+  {
+    "docker": {
+      "name": "Docker",
+      "image": "./logos/docker.png"
+    }
+  },
+  {
+    "postman": {
+      "name": "Postman",
+      "image": "./logos/postman.png"
+    }
+  },
+  {
+    "kubernetes": {
+      "name": "Kubernetes",
+      "image": "./logos/kubernetes.png"
+    }
+  },
+  {
+    "aws": {
+      "name": "AWS",
+      "image": "./logos/aws.png"
+    }
+  },
+  {
+    "linux": {
+      "name": "Linux",
+      "image": "./logos/linux.png"
+    }
+  }
 ]

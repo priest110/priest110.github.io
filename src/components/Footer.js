@@ -35,7 +35,7 @@ export default class Footer extends React.Component{
                 <Divider/>
                 <Box justifyContent="center" alignItems="center" sx={{ display: "flex" }}>
                     <Typography>
-                        @2023 Rui Oliveira 
+                        @2025 Rui Oliveira 
                     </Typography>
                 </Box>    
             </footer>

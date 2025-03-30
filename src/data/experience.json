@@ -1,56 +1,56 @@
 [
-    {
-        "title": "Universidade do Minho",
-        "subtitle": "BSc Computer and Software Engineering",
-        "chips": [
-            "Functional Programming",
-            "Imperative Programming",
-            "Object Oriented Programming",
-            "Operating Systems",
-            "Distributed Systems",
-            "Software Systems Development",
-            "Computer Networks",
-            "Databases"
-        ],
-        "date": "September 2017 - July 2020",
-        "logo": "./logos/uminho.jpg"
-    },
-    {
-        "title": "Universidade do Minho",
-        "subtitle": "MSc Computer and Software Engineering",
-        "subsubtitle": "Distributed Systems & Distributed Parallel Computing",
-        "chips": [
-            "Distributed Systems Fundamentals",
-            "Large Scale Distributed Systems",
-            "Fault Tolerance",
-            "Advanced Architectures",
-            "Parallel Algorithms",
-            "Computer Systems Engineering"
-        ],
-        "date": "September 2020 - December 2022",
-        "logo": "./logos/uminho.jpg"
-    },
-    {
-        "title": "Poweb",
-        "subtitle": "Frontend Developer",
-        "subsubtitle": "Freelance",
-        "content": "Development and maintenance of the digital marketing company's website.",
-        "date": "April 2022 - September 2022",
-        "logo": "./logos/poweb.jpg"
-    },
-    {
-        "title": "INESC TEC",
-        "subtitle": "Research assistant",
-        "subsubtitle": "Research area: Scientific Data Management",
-        "content": "Analysis of existing solutions to the problem of scientific data management, with a focus on the CKAN, EUDAT, and Magda systems. Following this evaluation, an adaptation of the most interesting (CKAN) was applied to a specific study, the SAIL Project, an initiative promoted by INESC TEC researchers. My master's thesis was the result of this research.",
-        "date": "March 2022 - November 2022",
-        "logo": "./logos/inesctec.png"
-    },
-    {
-        "title": "Checkmarx",
-        "subtitle": "Software Engineer",
-        "content": "Integration into one of the R&D teams responsible for supporting the company's Static Application Security Testing (SAST) product.\nSupport for the GO language (with an emphasis on the Gin framework).\nDevelopment of a Policy Management platform (a centralized application for defining and managing an organization's security policies).",
-        "date": "April 2023 - Present",
-        "logo": "./logos/checkmarx.png"
-    }
+  {
+    "title": "Universidade do Minho",
+    "subtitle": "BSc Computer and Software Engineering",
+    "chips": [
+      "Functional Programming",
+      "Imperative Programming",
+      "Object Oriented Programming",
+      "Operating Systems",
+      "Distributed Systems",
+      "Software Systems Development",
+      "Computer Networks",
+      "Databases"
+    ],
+    "date": "September 2017 - July 2020",
+    "logo": "./logos/uminho.jpg"
+  },
+  {
+    "title": "Universidade do Minho",
+    "subtitle": "MSc Computer and Software Engineering",
+    "subsubtitle": "Distributed Systems & Distributed Parallel Computing",
+    "chips": [
+      "Distributed Systems Fundamentals",
+      "Large Scale Distributed Systems",
+      "Fault Tolerance",
+      "Advanced Architectures",
+      "Parallel Algorithms",
+      "Computer Systems Engineering"
+    ],
+    "date": "September 2020 - December 2022",
+    "logo": "./logos/uminho.jpg"
+  },
+  {
+    "title": "Poweb",
+    "subtitle": "Frontend Developer",
+    "subsubtitle": "Freelance",
+    "content": "Development and maintenance of the digital marketing company's website.",
+    "date": "April 2022 - September 2022",
+    "logo": "./logos/poweb.jpg"
+  },
+  {
+    "title": "INESC TEC",
+    "subtitle": "Research assistant",
+    "subsubtitle": "Research area: Scientific Data Management",
+    "content": "Analysis and aplication of existing solutions to the problem of scientific data management (part of the SAIL Project, an initiative promoted by INESC TEC). My master's thesis was the result of this research.",
+    "date": "March 2022 - November 2022",
+    "logo": "./logos/inesctec.png"
+  },
+  {
+    "title": "Checkmarx",
+    "subtitle": "Software Engineer",
+    "content": "<b>SAST</b>\nContribution to the support of the Go language for SAST, improving the detection of security flaws in cloud-native and microservices architectures.\n<b>Secrets Detection & Repo Health</b>\nDevelopment of a microservices based solution for automated scanning of secret exposure (API keys, encryption keys, tokens, certificates) to prevent supply chain attacks and leaked credentials risks.",
+    "date": "April 2023 - Present",
+    "logo": "./logos/checkmarx.jpeg"
+  }
 ]
