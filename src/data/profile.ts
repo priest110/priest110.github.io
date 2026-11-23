@@ -32,7 +32,7 @@ export const experience: Job[] = [
     date: '2026 – now',
     title: 'AI Engineer',
     org: 'Checkmarx',
-    text: 'Building LLM agents for application security, including the Findings Analysis Engine in {Checkmarx Fusion}. Prompt design, retrieval and model evaluation.',
+    text: 'Building LLM agents for application security, including work on the Findings Analysis Engine in {Checkmarx Fusion}. I cover prompt design, retrieval and model evaluation.',
     links: {
       'Checkmarx Fusion': 'https://checkmarx.com/platform/checkmarx-fusion',
     },
@@ -53,7 +53,7 @@ export const experience: Job[] = [
     date: '2022 – 2023',
     title: 'Full Stack Developer',
     org: 'Freelance',
-    text: 'Web and mobile apps for clients in digital marketing, sustainable energy and non-profits.',
+    text: 'Built web and mobile apps for clients in digital marketing, sustainable energy and the non-profit sector.',
     stack: ['React', 'TypeScript', 'Express'],
   },
 ];
@@ -69,7 +69,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     name: '2ms',
-    context: 'Checkmarx · open source',
+    context: 'Checkmarx',
     text: 'An open-source secrets detection engine written in Go. I contributed to it and helped maintain it.',
     url: 'https://github.com/checkmarx/2ms',
     stack: ['Go'],
