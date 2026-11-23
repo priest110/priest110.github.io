@@ -32,7 +32,7 @@ export const experience: Job[] = [
     date: '2026 – now',
     title: 'AI Engineer',
     org: 'Checkmarx',
-    text: 'Building LLM agents for application security, including work on the Findings Analysis Engine in {Checkmarx Fusion}. I cover prompt design, retrieval and model evaluation.',
+    text: 'Building the Findings Analysis Engine in {Checkmarx Fusion}, an LLM agent that separates real vulnerabilities from false positives. I cover prompt design, retrieval and model evaluation.',
     links: {
       'Checkmarx Fusion': 'https://checkmarx.com/platform/checkmarx-fusion',
     },
