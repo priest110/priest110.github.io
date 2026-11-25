@@ -66,10 +66,10 @@ const year = new Date().getFullYear();
       </section>
 
       <section id="projects" aria-labelledby="h-proj">
-        <h2 class="sec" id="h-proj">Projects</h2>
+        <h2 class="sec r" id="h-proj" style={`--d:${0.6 + experience.length * 0.1}`}>Projects</h2>
         <ul class="list">
-          {projects.map((p) => (
-            <li class="item">
+          {projects.map((p, i) => (
+            <li class="item r" style={`--d:${0.7 + (experience.length + i) * 0.1}`}>
               <span class="when">Open source</span>
               <div>
                 <h3>{p.name} <span>· {p.context}</span><span class="arr" aria-hidden="true">↗</span></h3>

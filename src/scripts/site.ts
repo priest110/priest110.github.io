@@ -82,7 +82,12 @@ function initScrollEffects() {
 
   if (scene) {
     const end = new IntersectionObserver((entries) => {
-      if (entries.some((en) => en.isIntersecting)) { scene.classList.add('up'); end.disconnect(); }
+      if (!entries.some((en) => en.isIntersecting)) return;
+      end.disconnect();
+      // Wait for the hills to finish loading so the scene enters as one piece instead of popping in.
+      const hills = scene.querySelector<HTMLImageElement>('.hills');
+      const ready = hills && !hills.complete ? hills.decode().catch(() => undefined) : Promise.resolve();
+      ready.then(() => requestAnimationFrame(() => scene.classList.add('up')));
     }, { threshold: 0.45 });
     end.observe(scene);
   }
