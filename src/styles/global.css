@@ -131,10 +131,11 @@ h2.sec { margin: 0 0 22px; font-size: 13px; letter-spacing: .09em; text-transfor
   padding: 24px max(var(--gutter), env(safe-area-inset-left, 0px)); }
 .scene { padding-top: clamp(100px, 16vw, 200px); }
 .art { --ah: clamp(64px, 9.5vw, 124px); position: relative; }
-.hills { position: relative; z-index: 2; display: block; width: 100%; max-width: none; height: auto; filter: var(--art);
-  transition: opacity .8s ease-out, translate .9s cubic-bezier(.2, .7, .2, 1); }
-.js .hills { opacity: 0; translate: 0 24px; }
-.js .scene.up .hills { opacity: 1; translate: 0 0; }
+.hills { position: relative; z-index: 2; display: block; width: 100%; max-width: none; height: auto; filter: var(--art); }
+/* The scene fades in as one layer, so the hills always fully cover the avatar hidden behind them. */
+.art { transition: opacity .8s ease-out, translate .9s cubic-bezier(.2, .7, .2, 1); }
+.js .art { opacity: 0; translate: 0 24px; }
+.js .scene.up .art { opacity: 1; translate: 0 0; }
 .peek { position: absolute; z-index: 1; left: 71%; width: var(--ah); height: var(--ah); bottom: calc(85% - var(--ah) * .14); translate: -50% 0; }
 .peek img { width: 100%; height: 100%; display: block; transform-origin: 50% 90%; transition: transform .9s .55s cubic-bezier(.3, 1.4, .5, 1); }
 .js .peek img { transform: translateY(100%); }
@@ -161,6 +162,6 @@ h2.sec { margin: 0 0 22px; font-size: 13px; letter-spacing: .09em; text-transfor
   body, .mini, .theme, .cta, .icon { transition: none; }
   .r { animation: none; }
   .js .peek img, .js .scene.up .peek img { transform: none; animation: none; }
-  .js .hills, .js .scene.up .hills { opacity: 1; translate: 0 0; transition: none; }
+  .js .art, .js .scene.up .art { opacity: 1; translate: 0 0; transition: none; }
   .js .bubble, .js .scene.up .bubble { opacity: 1; transform: none; transition: none; }
 }
